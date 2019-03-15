@@ -1,1 +1,1 @@
-nw.Window.open('https://trello.com/login?returnUrl=%2F', {}, win => {})
+nw.Window.open('https://trello.com/login?returnUrl=%2F', {width:800, height:600}, win => {})

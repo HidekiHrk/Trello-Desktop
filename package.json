@@ -1,0 +1,27 @@
+{
+  "name": "trello-desktop",
+  "main": "main.js",
+  "version": "0.0.1",
+  "description": "An linux desktop client for trello.",
+  "build": {
+    "nwVersion": "0.37.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dist": "build --tasks linux-x64 --mirror https://dl.nwjs.io/ .",
+    "start": "run --x86 --mirror https://dl.nwjs.io/ ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HidekiHrk/Trello-Desktop.git"
+  },
+  "author": "HidekiHrk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HidekiHrk/Trello-Desktop/issues"
+  },
+  "homepage": "https://github.com/HidekiHrk/Trello-Desktop#readme",
+  "devDependencies": {
+    "nwjs-builder-phoenix": "^1.15.0"
+  }
+}
