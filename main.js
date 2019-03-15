@@ -1,0 +1,1 @@
+nw.Window.open('https://trello.com/login?returnUrl=%2F', {}, win => {})
